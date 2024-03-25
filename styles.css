@@ -1,0 +1,75 @@
+body{
+
+    background-color: rgb(0, 107, 128);
+
+}
+
+ 
+
+h1 {
+
+    color: brown;
+
+    text-align: center;
+
+    font-family: 'Arial', sans-serif;
+
+    margin-top: 20px;
+
+}
+
+ 
+
+figure {
+
+    text-align: center;
+
+    margin: 20px 0;
+
+}
+
+ 
+
+#thumbnails {
+
+    list-style: none;
+
+    padding: 0;
+
+    display: flex;
+
+    justify-content: center;
+
+}
+
+ 
+
+#thumbnails li {
+
+    margin: 0 10px;
+
+}
+
+#thumbnails img {
+
+    width: 100px;
+
+    height: 75px;
+
+    cursor: pointer;
+
+    border: 2px solid #ddd;
+
+    border-radius: 5px;
+
+}
+
+ 
+
+#thumbnails img:hover {
+
+    border-color: goldenrod;
+
+}
+
+ 
